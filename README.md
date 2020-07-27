@@ -34,5 +34,7 @@ This app fetches the latest headlines & news articles from https://newsapi.org/
  - Configure fastlane to build & deploy
  - Convert the Overview screen to a UICollectionView to support multi column layout (iPad)
  - Add caching for image download to prevent unnecessary calls 
- - Extends NewsUIKit with fonts & styles 
+ - Extends NewsUIKit with fonts & styles
+ - Animate the header away while scrolling down
+ - Implement Empty state support
  - Let a UI/UX designer have a look to improve the overal app appearance 
