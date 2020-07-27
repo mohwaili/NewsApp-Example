@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  NewsApp
+
+  Created by Mohammed Al Waili on 27/07/2020.
+  Copyright © 2020 Mohammed Al Waili. All rights reserved.
+*/
+
+"searchField_placeholder" = "Search for...";
+"headlines_title" = "Headlines";
+"articles_title" = "Articles";
+"author_title" = "Author: %@";
+"date_title" = "Date: %@";
+"retry_title" = "Retry";
+"open_article_button_title" = "Open Article";
