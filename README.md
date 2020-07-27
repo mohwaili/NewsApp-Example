@@ -24,7 +24,7 @@ This app fetches the latest headlines & news articles from https://newsapi.org/
  - The assets & strings are generated with Swiftgen 
 
 ## Tests
- - Unit tests are written using XCTest framework (NewsAPIKit & The ViewModel in NewsApp)
+ - Unit tests are written using XCTest framework (NewsAPIKit & The ViewModels in NewsApp)
  - UI tests are written using EarlGrey 
  - Mocks are generated with Sourcery 
 
