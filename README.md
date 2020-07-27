@@ -31,7 +31,7 @@ This app fetches the latest headlines & news articles from https://newsapi.org/
 ## Improvements
  - Implement SSL Pinning for better security to prevent Man-in-the-middle attacks
  - Extend Unit & UI tests for the detail screen
- - Configure fastlane to build & deploy
+ - Configure fastlane to build, Test & deploy
  - Convert the Overview screen to a UICollectionView to support multi column layout (iPad)
  - Add caching for image download to prevent unnecessary calls 
  - Extends NewsUIKit with fonts & styles
