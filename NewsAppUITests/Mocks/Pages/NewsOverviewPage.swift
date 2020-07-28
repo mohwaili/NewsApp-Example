@@ -33,7 +33,7 @@ extension NewsOverviewPage {
     @discardableResult
     func enterQuery(_ query: String) -> Self {
         EarlGrey
-            .selectElement(with: grey_accessibilityID(AccessibilityIdenitifers.NewsOverview.searchInputField))
+            .selectElement(with: grey_accessibilityID(AccessibilityIdenitifers.NewsOverview.searchBar))
             .perform(grey_typeText(query))
         return self
     }
@@ -41,7 +41,7 @@ extension NewsOverviewPage {
     @discardableResult
     func tapSearch() -> Self {
         EarlGrey
-            .selectElement(with: grey_accessibilityID(AccessibilityIdenitifers.NewsOverview.searchButton))
+            .selectElement(with: grey_accessibilityLabel("zoek"))
             .perform(grey_tap())
         return self
     }
@@ -69,17 +69,9 @@ extension NewsOverviewPage {
 extension NewsOverviewPage {
     
     @discardableResult
-    func assertSearchInputfieldVisible() -> Self {
+    func assertSearchBarVisible() -> Self {
         EarlGrey
-            .selectElement(with: grey_accessibilityID(AccessibilityIdenitifers.NewsOverview.searchInputField))
-            .assert(grey_sufficientlyVisible())
-        return self
-    }
-    
-    @discardableResult
-    func assertSearchButtonVisible() -> Self {
-        EarlGrey
-            .selectElement(with: grey_accessibilityID(AccessibilityIdenitifers.NewsOverview.searchButton))
+            .selectElement(with: grey_accessibilityID(AccessibilityIdenitifers.NewsOverview.searchBar))
             .assert(grey_sufficientlyVisible())
         return self
     }

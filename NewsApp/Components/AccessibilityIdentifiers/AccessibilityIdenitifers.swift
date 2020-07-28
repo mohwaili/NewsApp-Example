@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  AccessibilityIdenitifers.swift
 //  NewsApp
 //
 //  Created by Mohammed Al Waili on 27/07/2020.

@@ -42,19 +42,7 @@ class NewsOverviewViewControllerTests: NewsTestCase {
         
         // Then
         Page.on(NewsOverviewPage.self)
-            .assertSearchInputfieldVisible()
-    }
-    
-    func testNewsOverviewViewController_searchButtonIsVisible() {
-        // Given
-        let viewController = NewsOverviewViewController(with: viewModel)
-        
-        // When
-        open(viewController: viewController)
-        
-        // Then
-        Page.on(NewsOverviewPage.self)
-            .assertSearchButtonVisible()
+            .assertSearchBarVisible()
     }
     
     func testNewsOverviewViewController_headlineCategoriesExists() {

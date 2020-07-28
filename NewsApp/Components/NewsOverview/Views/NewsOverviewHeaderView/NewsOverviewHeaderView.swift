@@ -97,6 +97,7 @@ extension NewsOverviewHeaderView {
         searchBar.placeholder = Localized.searchFieldPlaceholder
         searchBar.delegate = self
         searchBar.searchBarStyle = .minimal
+        searchBar.accessibilityIdentifier = AccessibilityIdenitifers.NewsOverview.searchBar
         return searchBar
     }
     

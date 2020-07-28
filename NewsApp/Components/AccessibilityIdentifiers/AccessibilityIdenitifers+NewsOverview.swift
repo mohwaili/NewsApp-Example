@@ -12,8 +12,7 @@ extension AccessibilityIdenitifers {
     
     struct NewsOverview {
         static let rootViewId = "\(NewsOverview.self).rootViewId"
-        static let searchInputField = "\(NewsOverview.self).searchInputField"
-        static let searchButton = "\(NewsOverview.self).searchButton"
+        static let searchBar = "\(NewsOverview.self).searchBar"
         static let categories = "\(NewsOverview.self).categories"
         static let articlesTableView = "\(NewsOverview.self).articlesTableView"
         
