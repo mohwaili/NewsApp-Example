@@ -21,7 +21,13 @@ This app fetches the latest headlines & news articles from https://newsapi.org/
     - NewsAPIKit: contains of the network client, repositories, models, operations... 
     - NewsUIKit: contains of GenericErrorView & The colors used in the app
     - NewsApp: The iOS app implementation
- - The assets & strings are generated with Swiftgen 
+ 
+ ## Tools & Dependencies
+
+  - Swiftlint: code checking 
+  - EarlGrey: UI Testing 
+  - Swiftgen: Generating Assets & Strings 
+  - Sourcery: Generating mocks 
 
 ## Tests
  - Unit tests are written using XCTest framework (NewsAPIKit & The ViewModels in NewsApp)
