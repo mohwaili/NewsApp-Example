@@ -32,7 +32,6 @@ This app fetches the latest headlines & news articles from https://newsapi.org/
 ## Tests
  - Unit tests are written using XCTest framework (NewsAPIKit & The ViewModels in NewsApp)
  - UI tests are written using EarlGrey 
- - Mocks are generated with Sourcery 
 
 ## Improvements
  - Implement SSL Pinning for better security to prevent Man-in-the-middle attacks
